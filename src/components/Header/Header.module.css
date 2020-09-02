@@ -1,0 +1,53 @@
+.headerContainer{
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500 !important;
+    text-transform: capitalize;
+}
+
+.logo{
+    width: 54px !important;
+    height: 54px !important;
+}
+
+.headerMenu{
+    display: flex;
+    align-items: center;
+}
+
+.headerMenu>div{
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.headerMenu>div:first-child{
+    justify-content: left;
+}
+
+.headerMenu>div:last-of-type{
+    justify-content: flex-end;
+}
+
+.menuItem{
+    margin: 0 5%;
+    color: black !important;
+}
+
+.languageText{
+    display: inline-block;
+    text-transform: uppercase !important;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 10px;
+    font-family: Roboto !important;
+    color: black !important;
+}
+
+.dropDownText{
+    color: black !important;
+}
