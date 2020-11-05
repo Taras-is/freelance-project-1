@@ -5,7 +5,10 @@
     font-style: normal;
     font-weight: 500 !important;
     text-transform: capitalize;
+    width: 100%;
 }
+
+
 
 .logo{
     width: 54px !important;
@@ -15,23 +18,18 @@
 .headerMenu{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
 }
 
-.headerMenu>div{
-    width: 33.3%;
+.headerMenu > div {
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-
-.headerMenu>div:first-child{
-    justify-content: left;
+.headerMenu :nth-child(2){
+    margin-left: 40%;
 }
 
-.headerMenu>div:last-of-type{
-    justify-content: flex-end;
-}
 
 .menuItem{
     margin: 0 5%;

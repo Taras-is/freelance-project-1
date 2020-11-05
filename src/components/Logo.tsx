@@ -1,6 +1,6 @@
 import React from "react";
 import { Image } from "semantic-ui-react";
-import logoImg from "../assets/images/logo.png";
+import logoImg from "../assets/images/settings.png";
 import styles from "./Header/Header.module.css";
 
 export default function () {

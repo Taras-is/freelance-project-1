@@ -15,29 +15,23 @@ export default function () {
             <Logo />
           </Menu.Item>
           <Menu.Item name="languages" exact className={styles.menuItem}>
-            <Image src={languagesImg} alt="languages" />
-            <Languages />
+            <b>Автосервіс TRUE SERVICE</b>
+
           </Menu.Item>
         </div>
         <div>
-          <Menu.Item name="subjects" exact className={styles.menuItem}>
-            <Subject />
-          </Menu.Item>
+
           <Menu.Item name="Специалисты" exact className={styles.menuItem}>
-            Специалисты
+           <b>Галерея</b>
           </Menu.Item>
           <Menu.Item name="События" exact className={styles.menuItem}>
-            События
+          <b> Ціни </b>
           </Menu.Item>
-        </div>
-        <div>
           <Menu.Item name="Войти" exact className={styles.menuItem}>
-            Войти
+           <b> Про нас </b>
           </Menu.Item>
           <Menu.Item name="subjects" exact className={styles.menuItem}>
-            <Button basic color="teal">
-              Стать специалистом
-            </Button>
+            <b>Співпраця</b>
           </Menu.Item>
         </div>
       </Menu>

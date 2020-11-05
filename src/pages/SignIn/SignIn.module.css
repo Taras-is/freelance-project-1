@@ -1,0 +1,283 @@
+.form_wrapper {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+    width: 100% !important;
+
+
+
+}
+.signInWrapper {
+    width: 50%;
+    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-right: 1px solid #EEEEEE;
+}
+
+.formContainer {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 68% !important;
+
+}
+
+.input {
+
+    width: 100% !important;
+}
+
+.btn {
+    margin-left: 30% !important;
+    margin-right: 0;
+    width: 90%;
+}
+.errorMessage {
+color: red;
+}
+
+.field_wrapper {
+    height: 80px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 0;
+
+}
+
+
+.forgotpassword_block {
+    width: 100%;
+    margin-top: 1%;
+    margin-left: 38%;
+}
+
+.forgotpassword {
+align-self: flex-start !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #333333;
+}
+
+.registercheck {
+    margin-top: 5%;
+    margin-left: 19%;
+width: 75%;
+    align-self: flex-start;
+}
+
+.registercheck label {
+
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    color: #333333;
+    padding-bottom: 20%;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 18%;
+    margin-right: 6%;
+}
+
+.icons> a {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.linecontainer {
+    margin-top: 10%;
+    position: relative;
+    margin-bottom: 10%;
+    margin-right: 5%;
+}
+
+.line_text {
+    position: absolute;
+    background: #ffffff;
+    left: 23%;
+    top: -10px !important;
+    padding-left: 13%;
+    padding-right: 15%;
+    color:  #CECECE;
+}
+
+
+.right_wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right_form_wrapper {
+    margin-left: 15%;
+    width: 70%;
+    margin-bottom: 13%;
+}
+
+.right_wrapper .firsth {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #333333;
+}
+
+.right_wrapper .secondh {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #333333;
+}
+
+.btn_right {
+padding-right: 20%  !important;
+    padding-left: 20% !important;
+    margin-top: 10% !important;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .line_text {
+        padding-left: 13%;
+        padding-right: 8%;
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .line_text {
+        padding-left: 11% !important;
+        padding-right: 9%;
+        font-size: 0.9em;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 950px) {
+    .line_text {
+        padding-left: 9% !important;
+        padding-right: 9%;
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+.icons {
+    margin-left: 3%;
+}
+}
+
+@media only screen and (max-width: 670px) {
+    .icons {
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 651px) {
+    .line_text {
+        padding-left: 8% !important;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .form_wrapper {
+        flex-wrap: wrap;
+
+    }
+
+    .signInWrapper {
+        border: 0;
+        margin-left: 0 !important;
+
+    }
+
+.right_wrapper {
+    margin-left: 0 !important;
+margin-right: 13% !important;
+}
+
+   .right_form_wrapper {
+       margin-left: 0 !important;
+       margin-right: 0 !important;
+
+   }
+   .icons {
+       align-self: center;
+   }
+
+    .line_text {
+        padding-left: 9%;
+        padding-right: 5%;
+    }
+
+    .form_wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0 !important;
+    }
+.formContainer {
+    margin-left: 0 !important;
+    width: 100% !important;
+    margin-right: 0 !important;
+}
+
+.field_wrapper {
+    margin-left: 0!important;
+    margin-right: 0;
+}
+
+.btn {
+    margin-left: 0!important;
+}
+.forgotpassword_block {
+    margin-left: 9%;
+}
+
+.registercheck {
+    margin-left: 5%;
+}
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .line_text {
+        display: none;
+    }
+    .linecontainer {
+        display: none;
+    }
+    .icons {
+        margin-bottom: 3%;
+    }
+}
+

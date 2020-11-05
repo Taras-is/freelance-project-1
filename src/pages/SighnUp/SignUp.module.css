@@ -1,0 +1,214 @@
+.photo {
+    align-self: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.sendEmail {
+    text-align: left;
+    font-size: 10px;
+}
+
+.sign_up_wrapper {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.right_form_wrapper .manager {
+    font-size: 20px;
+    width: 75%;
+    text-align: center;
+    margin-left: 12%;
+}
+
+.left_wrapper {
+    width: 50%;
+    border-right: 1px solid #EEEEEE;;
+    padding-top: 4%;
+    padding-bottom: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cases {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+}
+.case_wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 6%;
+}
+
+.case_wrapper img {
+    height: 8vh;
+    width: auto;
+}
+
+.case_img {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 70%;
+    margin-right: 3%;
+}
+
+.right_wrapper {
+    width: 50%;
+    padding-top: 3%;
+
+}
+
+.content .header {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+}
+
+.content .info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: black;
+}
+
+.main_info {
+    width: 70%;
+    margin-left: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_info_header {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: black;
+    text-align: center;
+}
+
+.main_content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: black;
+}
+
+div.root {
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.info {
+    border-bottom: 1px solid #EEEEEE;
+    height: 0.5em;
+    margin-bottom: 0.5em;
+    position: relative;
+    width: 75%;
+    left: 12% !important;
+}
+
+div.info span {
+    background-color:  #FFFFFF;
+    color: #EEEEEE;
+    display: block;
+    padding: 0px 5px;
+    position: absolute;
+    left: 25% !important;
+}
+
+div.info span:first-child {
+    left: 30%;
+    right: auto;
+    padding-left: 8%;
+    padding-right: 6%;
+}
+
+.icons_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.vectors {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 23%;
+    padding-bottom: 5%;
+    padding-top: 3%;
+}
+
+.vectors a {
+    padding-left: 1%;
+    margin-right: 1%;
+}
+
+
+
+.formContainer {
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center !important;
+    height: max-content;
+    overflow: hidden;
+
+}
+
+.input {
+width: 75%;
+}
+
+.field_wrapper {
+    align-items: flex-start !important;
+    height: 15vh;
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+
+ Form Button {
+    width: 75%;
+    margin-top: 3% !important;
+}
+
+.errorMessage {
+    color: red;
+}
+
+.forgotpassword_block {
+    width: 100%;
+    margin-top: 3%;
+    margin-left: 25%;
+}
+.registercheck {
+width: 75%;
+    margin-top: 3%;
+}

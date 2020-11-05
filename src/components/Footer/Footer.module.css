@@ -1,0 +1,10 @@
+.footer {
+    margin-top: 2vh;
+    height: 18vh !important;
+    width: 100% !important;
+    box-shadow: #CECECE !important;
+    border-top: 1px solid #CECECE !important;
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
